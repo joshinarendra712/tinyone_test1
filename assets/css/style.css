@@ -1,0 +1,225 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family: 'PT Sans', sans-serif;
+}
+/* ==========helper classes========== */
+.container{
+	width:960px;
+	margin:0 auto;
+}
+a:link{
+	text-decoration:none;
+}
+.row,.row::after,.row::before{
+	clear:both;
+	display:table;
+	width:100%;
+}
+.mb-70{
+	margin-bottom:70px;
+}
+.mb-80{
+	margin-bottom:80px;
+}
+.mb-90{
+	margin-bottom:90px;
+}
+.mb-130{
+	margin-bottom:135px;
+}
+.text-center{
+	text-align:center;
+}
+div[class^='col']{
+	float:left;
+	padding:0 10px;
+}
+.col1{
+	width:calc(100% * 1 / 12);
+}
+.col2{
+	width:calc(100% * 2 / 12);
+}
+.col3{
+	width:calc(100% * 3 / 12);
+}
+.col4{
+	width:calc(100% * 4 / 12);
+}
+.col5{
+	width:calc(100% * 5 / 12);
+}
+.col6{
+	width:calc(100% * 6 / 12);
+}
+.col7{
+	width:calc(100% * 7 / 12);
+}
+.col9{
+	width:calc(100% * 9 / 12);
+}
+.col10{
+	width:calc(100% * 10 / 12 );
+}
+.col12{
+	width:100%;
+}
+.pr-22{
+	padding-right:22px;
+}
+
+.ml-col2{
+	margin-left:calc(100% * 2 / 12);
+}
+.ml-offset-col1{
+	margin-left:calc(100% * 1 / 12);
+}
+/*============================== header classes csss======================= */
+.header{
+	background-color:#fcdb00;
+	padding:60px 0 110px;
+}
+ul{
+	list-style:none;
+}
+.navbar li{
+	display:inline-block;
+	margin:0 9px;
+}
+.navbar li a{
+	padding:0 9px;
+	font-size:22px;
+	color:#010101;
+	font-weight:bold;
+	text-transform:capitalize;
+	height:43px;
+	line-height:43px;
+}
+.inspire{
+	padding-top:73px;
+}
+.navbar li:first-child a {
+	padding-left:0;
+}
+.navbar li:first-child{
+	margin-left:0;
+}
+.heading{
+	font-weight:bold;
+	font-size:22px;
+	color:#010101;
+	margin-bottom:22px;
+	text-transform:capitalize;
+}
+.subheading{
+	font-size:20px;
+	color:#313841;
+	margin-bottom:30px;
+}
+.para{
+	font-size:16px;
+	color:#555555;
+	line-height:19px;
+	margin-bottom:40px;
+}
+.links li{
+	display:inline-block;
+	margin-right:25px;
+	font-size:40px;
+}
+.links a i{
+	color:#010101;
+}
+/* ====================features css start========================= */
+.features{
+	padding:120px 0 160px;
+}
+
+.thumbimg img{
+	/* padding:0 25px; */
+}
+.thumbinfo h3{
+	color:#010101;
+	font-size:22px;
+	font-family: 'Roboto', sans-serif;
+}
+.thumbinfo .para{
+	color:#898989;
+	font-size:16px;
+	font-family: 'Roboto', sans-serif;
+}
+.thumbimg i{
+	font-size:42px;
+	
+	
+}
+/* =================footer section css start==================== */
+.footer{
+	padding:95px 0 140px;
+	background-color:#010101;
+}
+.footerheading{
+	font-size:32px;
+	color:#fcdb00;
+	font-weight:bold;
+	margin-bottom:25px;
+	font-family: 'Roboto', sans-serif;
+}
+.footerpara{
+	font-size:20px;
+	color:#898989;
+	margin-bottom:40px;
+	font-family: 'Roboto', sans-serif;
+}
+.email{
+	width:580px;
+	height:50px;
+	padding:0 20px;
+	border-radius:5px;
+	text-transform:capitalize;
+	
+}
+.email placeholder{
+	color:#898989;
+	font-size:16px;
+}
+.submit{
+	width:125px;
+	height:50px;
+	background-color:#010101;
+	border:1px solid black;
+	text-transform:uppercase;
+	border-radius:5px;
+	display:inline-block;
+	margin-left:20px;
+	cursor:pointer;
+	color:#fcdb00;
+	font-weight:bold;
+	transition:all 0.3s;
+	border:1px solid #fcdb00;
+	
+}
+.submit:hover,
+.submit:active,
+.submit:focus{
+	background-color:#fcdb00;
+	color:#010101;
+}
+.socil-icons li{
+	display:inline-block;
+	margin-right:32px;
+}
+.socil-icons li i{
+	font-size:36px;
+	color:#fcdb00;
+}
+.footerlinks li, .footerlinks li a{
+	color:#ffffff;
+	font-size:16px;
+	font-family: 'Roboto', sans-serif;
+}
+.footerlinks li{
+	text-transform:capitalize;
+}
